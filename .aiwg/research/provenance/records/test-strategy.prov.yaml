@@ -1,0 +1,63 @@
+metadata:
+  schema_version: "1.0.0"
+  created_at: "2026-10-28T15:48:35Z"
+  description: "Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)"
+entity:
+  id: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+  type: "document"
+  created_at: "2026-10-28T15:48:35Z"
+  checksum: "sha256:19d01ba6e51cb6e3ebf800fe7a4fb5da12c801d405a37c69d082df65c4c045fa"
+  size_bytes: 2207
+activity:
+  id: "urn:aiwg:activity:derivation:test-strategy:1"
+  type: "derivation"
+  started_at: "2026-10-28T15:48:35Z"
+  ended_at: "2026-10-28T15:48:35Z"
+  description: "Derived from the repository records cited in the page"
+agent:
+  id: "urn:aiwg:agent:claude-opus-5-5"
+  type: "ai_assistant"
+  name: "Claude Code"
+  tool: "claude-opus-5-5"
+relationships:
+  wasGeneratedBy:
+    entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+    activity: "urn:aiwg:activity:derivation:test-strategy:1"
+    time: "2026-10-28T15:48:35Z"
+  used:
+    - activity: "urn:aiwg:activity:derivation:test-strategy:1"
+      entity: "urn:aiwg:artifact:AGENTS.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:test-strategy:1"
+      entity: "urn:aiwg:artifact:docs/agents/playtests/index.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:test-strategy:1"
+      entity: "urn:aiwg:artifact:docs/agents/skills/bugreport.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:test-strategy:1"
+      entity: "urn:aiwg:artifact:docs/agents/skills/playtest.md"
+      role: "source_record"
+  wasDerivedFrom:
+    - entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+      source: "urn:aiwg:artifact:AGENTS.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:test-strategy:1"
+    - entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+      source: "urn:aiwg:artifact:docs/agents/playtests/index.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:test-strategy:1"
+    - entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+      source: "urn:aiwg:artifact:docs/agents/skills/bugreport.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:test-strategy:1"
+    - entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+      source: "urn:aiwg:artifact:docs/agents/skills/playtest.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:test-strategy:1"
+  wasAssociatedWith:
+    activity: "urn:aiwg:activity:derivation:test-strategy:1"
+    agent: "urn:aiwg:agent:claude-opus-5-5"
+    role: "primary_author"
+  wasAttributedTo:
+    entity: "urn:aiwg:artifact:.aiwg/testing/test-strategy.md"
+    agent: "urn:aiwg:agent:claude-opus-5-5"

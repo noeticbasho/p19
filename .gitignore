@@ -6,3 +6,9 @@
 /assets/client/network/
 /scripts/__pycache__
 /docs/agents/playtests/dist
+
+# AIWG runtime output from the Claude Code hooks (.claude/hooks) and scratch space
+.aiwg/traces/
+.aiwg/logs/
+.aiwg/sessions.json
+.aiwg/working/

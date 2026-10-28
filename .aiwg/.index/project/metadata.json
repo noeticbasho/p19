@@ -1,0 +1,507 @@
+{
+  "version": "1.0.0",
+  "extractorVersion": "2026.08.24.1",
+  "builtAt": "2026-10-28T15:48:51.073Z",
+  "buildTimeMs": 27,
+  "entries": {
+    ".aiwg/AIWG.md": {
+      "path": ".aiwg/AIWG.md",
+      "type": "document",
+      "phase": "other",
+      "title": "AIWG.md",
+      "tags": [],
+      "created": "2026-10-28T15:42:08.745Z",
+      "updated": "2026-10-28T15:42:08.745Z",
+      "checksum": "407a1d872290e281",
+      "summary": "<!-- aiwg-managed --> <!-- Normalized project-local AIWG context. Operator notes may live outside AIWG-managed blocks. --> This file is the stable `.aiwg/AIWG.md` entry point for AIWG skills, rules, and generated provider context. <!-- aiwg-context-finalization:START --> This section is synthesized after template emission from the current workspace state. Preserve operator-authored content outside AIWG-managed blocks; rerun `aiwg regenerate` to refresh this section after provider, framework, or",
+      "dependencies": [
+        "github.com"
+      ],
+      "markdownLinks": [
+        "./aiwg.config"
+      ],
+      "dependents": [
+        "AIWG.md"
+      ]
+    },
+    ".aiwg/architecture/README.md": {
+      "path": ".aiwg/architecture/README.md",
+      "type": "document",
+      "phase": "architecture",
+      "title": "Architecture",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.551Z",
+      "updated": "2026-10-28T15:48:35.552Z",
+      "checksum": "a33942c18fd4b2b1",
+      "summary": "Kept outside `.aiwg/` and not copied here: - **Current state:** @AGENTS.md (\"Architecture: client / shared / server\", \"Dependency layout\", \"Agent tool API and headless modes\"). - **Decisions:** @docs/agents/adr/README.md (ADRs 0001–0019). Record new decisions as ADRs in `docs/agents/adr/` (format: @docs/agents/skills/adr.md, from 0014 onward).",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/README.md",
+        "docs/agents/skills/adr.md"
+      ],
+      "dependents": []
+    },
+    ".aiwg/cli-extensions.json": {
+      "path": ".aiwg/cli-extensions.json",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:42:05.951Z",
+      "updated": "2026-10-28T15:42:06.913Z",
+      "checksum": "19b7383b57404131",
+      "summary": "{   \"century-readiness\": {     \"source\": \"/home/a/.local/lib/node_modules/aiwg/agentic/code/addons/century-readiness/commands\",     \"description\": \"Review long-horizon obligations, dependencies, replacement paths, and meaning packages\",     \"subcommands\": {",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/frameworks/forensics-complete/chain-of-custody.md": {
+      "path": ".aiwg/frameworks/forensics-complete/chain-of-custody.md",
+      "type": "document",
+      "phase": "other",
+      "title": "Chain of Custody Log",
+      "tags": [],
+      "created": "2026-10-28T15:42:05.591Z",
+      "updated": "2026-10-28T15:42:05.591Z",
+      "checksum": "e6ca03fc979114fc",
+      "summary": "> This document records the collection, transfer, and storage of all evidence for the referenced case. > Every person who handles evidence MUST log a transfer entry. Gaps in custody chain may compromise > the admissibility of evidence. Complete all fields — do not leave entries blank. --- | Field | Value |",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/frameworks/knowledge-base/index.md": {
+      "path": ".aiwg/frameworks/knowledge-base/index.md",
+      "type": "document",
+      "phase": "other",
+      "title": "Index",
+      "tags": [],
+      "created": "2026-10-28T15:42:05.591Z",
+      "updated": "2026-10-28T15:42:05.591Z",
+      "checksum": "0a3745f5a0c5c39e",
+      "summary": "",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/frameworks/registry.json": {
+      "path": ".aiwg/frameworks/registry.json",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:42:05.592Z",
+      "updated": "2026-10-28T15:42:05.592Z",
+      "checksum": "a50dbc3f56e1e210",
+      "summary": "{   \"version\": \"1.0.0\",   \"created\": \"2026-10-28T15:42:05.592Z\",   \"frameworks\": [     {",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/index.md": {
+      "path": ".aiwg/index.md",
+      "type": "document",
+      "phase": "other",
+      "title": "SDLC Index — prototype_19",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.552Z",
+      "updated": "2026-10-28T15:48:35.552Z",
+      "checksum": "a0bda65622eba8ce",
+      "summary": "_Generated: 2026-10-28 — 10 pages · consumer `sdlc-complete` · workspace `noetic-basho-technologies` (root: `../aiwg`)_ Derived pages cite their sources with `@path` mentions; provenance records are in `.aiwg/research/provenance/records/`. Authoritative: `AGENTS.md`, `docs/agents/adr/`, `docs/agents/bug_reports/`, `docs/agents/playtests/`, `docs/agents/skills/`. `docs/humans/` is human-only. - [Project intake](intake/project-intake.md) — always-multiplayer Bevy 0.19 prototype: authoritative serv",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/intake/option-matrix.md": {
+      "path": ".aiwg/intake/option-matrix.md",
+      "type": "document",
+      "phase": "intake",
+      "title": "Option Matrix (Project Context and Priorities)",
+      "tags": [],
+      "created": "2026-10-28T15:46:27.866Z",
+      "updated": "2026-10-28T15:46:27.866Z",
+      "checksum": "d8e117bd7e66b686",
+      "summary": "| Field | Value | |---|---| | Derived from | `AGENTS.md`, ADRs 0003, 0008, 0009, 0013, 0014 | | Source state | `184371f`, 2026-10-28 | - A prototype: the codename stays internal and branding is undecided (`AGENTS.md`).",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/0003-room-based-interest-management.md",
+        "docs/agents/adr/0008-adopt-bevy-ahoy-character-controller.md",
+        "docs/agents/adr/0009-agent-tool-api-via-brp.md",
+        "docs/agents/adr/0013-server-determinism-and-session-replay.md",
+        "docs/agents/adr/0016-system-fonts.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    ".aiwg/intake/project-intake.md": {
+      "path": ".aiwg/intake/project-intake.md",
+      "type": "document",
+      "phase": "intake",
+      "title": "Project Intake Form (Existing System)",
+      "tags": [],
+      "created": "2026-10-28T15:46:27.864Z",
+      "updated": "2026-10-28T15:46:27.865Z",
+      "checksum": "df10669c82240ef5",
+      "summary": "| Field | Value | |---|---| | Project | prototype_19 (codename `p19`; crates `p19-client`, `p19-server`, `p19-shared`) | | Repository | `github.com/nchashch/p19` (branch `main`; 232 commits, last 2026-10-09) | | Intake type | Existing system (brownfield), generated by `intake-from-codebase` |",
+      "dependencies": [
+        "AGENTS.md",
+        ".aiwg/planning/bevy-0.20-migration.md",
+        ".aiwg/intake/solution-profile.md",
+        ".aiwg/intake/option-matrix.md",
+        ".aiwg/requirements/use-cases.md",
+        ".aiwg/requirements/supplementary-spec.md",
+        ".aiwg/risks/risk-list.md",
+        ".aiwg/testing/test-strategy.md",
+        ".aiwg/testing/defect-register.md",
+        "docs/agents/adr/README.md",
+        "docs/agents/adr/0003-room-based-interest-management.md",
+        "docs/agents/adr/0008-adopt-bevy-ahoy-character-controller.md",
+        "docs/agents/adr/0013-server-determinism-and-session-replay.md",
+        "docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md",
+        "docs/agents/adr/0015-client-ui-on-bevy-markup.md",
+        "docs/agents/bug_reports/README.md",
+        "docs/agents/playtests/index.md"
+      ],
+      "dependents": []
+    },
+    ".aiwg/intake/solution-profile.md": {
+      "path": ".aiwg/intake/solution-profile.md",
+      "type": "document",
+      "phase": "intake",
+      "title": "Solution Profile (Current System)",
+      "tags": [],
+      "created": "2026-10-28T15:46:27.865Z",
+      "updated": "2026-10-28T15:46:27.866Z",
+      "checksum": "5b203d6ba264ad45",
+      "summary": "| Field | Value | |---|---| | Derived from | `AGENTS.md`, ADRs 0001–0019, bug ledger, playtest index, CI workflow | | Source state | `184371f`, 2026-10-28 | **Pre-release prototype with a production-shaped architecture.** The networking model (authoritative server, prediction, rollback, interest management, tokens over TLS) and the agent QA practice (51 playtests, 11 bugs all fixed) are well beyond prototype norms; automated testing is not (7 unit tests, CI builds only). Idle since 2026-10-09 an",
+      "dependencies": [
+        ".aiwg/planning/bevy-0.20-migration.md",
+        "AGENTS.md",
+        "docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md",
+        "docs/agents/bug_reports/README.md",
+        "docs/agents/playtests/index.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    ".aiwg/planning/bevy-0.20-migration.md": {
+      "path": ".aiwg/planning/bevy-0.20-migration.md",
+      "type": "document",
+      "phase": "planning",
+      "title": "Bevy 0.20 Migration Plan",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.548Z",
+      "updated": "2026-10-28T15:48:35.549Z",
+      "checksum": "59943cbcb08af828",
+      "summary": "| Field | Value | |---|---| | Derived from | `Cargo.toml`, `crates/*/Cargo.toml`, `Cargo.lock`, source references, crates.io and upstream repositories (queried 2026-10-28), `AGENTS.md` \"Dependency layout\" | | Source state | `184371f`, 2026-10-28 | | Status | **Waiting** — the character controller and audio crates have no Bevy 0.20 release |",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/0008-adopt-bevy-ahoy-character-controller.md",
+        "docs/agents/adr/0015-client-ui-on-bevy-markup.md",
+        "docs/agents/skills/playtest.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md",
+        ".aiwg/intake/solution-profile.md",
+        ".aiwg/risks/risk-list.md",
+        ".aiwg/testing/test-strategy.md"
+      ]
+    },
+    ".aiwg/receipts/providers/claude.project.evidence.json": {
+      "path": ".aiwg/receipts/providers/claude.project.evidence.json",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:42:08.755Z",
+      "updated": "2026-10-28T15:42:08.755Z",
+      "checksum": "91100aed4a826154",
+      "summary": "{   \"schemaVersion\": \"aiwg.provider-transformation-evidence-state.v1\",   \"recordedAt\": \"2026-10-28T15:42:08.755Z\",   \"provider\": \"claude\",   \"scope\": \"project\",",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/requirements/supplementary-spec.md": {
+      "path": ".aiwg/requirements/supplementary-spec.md",
+      "type": "document",
+      "phase": "requirements",
+      "title": "Supplementary Specification (Non-Functional Requirements)",
+      "tags": [],
+      "created": "2026-10-28T15:47:06.069Z",
+      "updated": "2026-10-28T15:47:06.070Z",
+      "checksum": "8dfd695b5797345e",
+      "summary": "| Field | Value | |---|---| | Template | `requirements/supplementary-spec-template.md` | | Derived from | `AGENTS.md` (\"What this is\", \"Platform targets\", \"Commands\", \"Dependency layout\"), ADRs 0003, 0013, 0014, 0016 | | Source state | `184371f`, 2026-10-28 |",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/0003-room-based-interest-management.md",
+        "docs/agents/adr/0013-server-determinism-and-session-replay.md",
+        "docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md",
+        "docs/agents/adr/0016-system-fonts.md",
+        "docs/agents/adr/0017-client-owned-absolute-look-input.md",
+        "docs/agents/bug_reports/bug_0004.md",
+        "docs/agents/bug_reports/bug_0005.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md",
+        ".aiwg/testing/test-strategy.md"
+      ]
+    },
+    ".aiwg/requirements/use-cases.md": {
+      "path": ".aiwg/requirements/use-cases.md",
+      "type": "use-case",
+      "phase": "requirements",
+      "title": "Use-Case Briefs",
+      "tags": [],
+      "created": "2026-10-28T15:47:06.068Z",
+      "updated": "2026-10-28T15:47:06.069Z",
+      "checksum": "d407166de1dabe5f",
+      "summary": "| Field | Value | |---|---| | Template | `requirements/use-case-brief-template.md` (one brief per section) | | Derived from | `AGENTS.md` (\"What this is\", \"Known gaps\", \"Commands\", \"Agent tool API and headless modes\"), ADRs 0003–0017 | | Source state | `184371f`, 2026-10-28 |",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/0003-room-based-interest-management.md",
+        "docs/agents/adr/0004-decouple-player-character-from-connection-entity.md",
+        "docs/agents/adr/0008-adopt-bevy-ahoy-character-controller.md",
+        "docs/agents/adr/0012-no-render-agent-client-mode.md",
+        "docs/agents/adr/0013-server-determinism-and-session-replay.md",
+        "docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md",
+        "docs/agents/adr/0015-client-ui-on-bevy-markup.md",
+        "docs/agents/adr/0017-client-owned-absolute-look-input.md",
+        "docs/agents/skills/playtest.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    ".aiwg/research/provenance/records/README.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/README.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.571Z",
+      "updated": "2026-10-28T15:48:35.571Z",
+      "checksum": "5ec484da28cd4f4d",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/bevy-0.20-migration.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/bevy-0.20-migration.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.571Z",
+      "updated": "2026-10-28T15:48:35.571Z",
+      "checksum": "715784fa637c606c",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/defect-register.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/defect-register.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.571Z",
+      "updated": "2026-10-28T15:48:35.571Z",
+      "checksum": "42095e8bc8a3e152",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/option-matrix.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/option-matrix.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.570Z",
+      "updated": "2026-10-28T15:48:35.570Z",
+      "checksum": "79d8184a50c9d2ea",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/project-intake.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/project-intake.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.569Z",
+      "updated": "2026-10-28T15:48:35.570Z",
+      "checksum": "cd67f2a8961d6a05",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/risk-list.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/risk-list.prov.yaml",
+      "type": "risk",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.570Z",
+      "updated": "2026-10-28T15:48:35.571Z",
+      "checksum": "0a0946e6f78d65ef",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/solution-profile.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/solution-profile.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.570Z",
+      "updated": "2026-10-28T15:48:35.570Z",
+      "checksum": "14c144b1a3176cd7",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/supplementary-spec.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/supplementary-spec.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.570Z",
+      "updated": "2026-10-28T15:48:35.570Z",
+      "checksum": "572f98b4f4dbf40c",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/test-strategy.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/test-strategy.prov.yaml",
+      "type": "document",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.571Z",
+      "updated": "2026-10-28T15:48:35.571Z",
+      "checksum": "09d78ac5919e1745",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/research/provenance/records/use-cases.prov.yaml": {
+      "path": ".aiwg/research/provenance/records/use-cases.prov.yaml",
+      "type": "use-case",
+      "phase": "other",
+      "title": "Untitled",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.570Z",
+      "updated": "2026-10-28T15:48:35.570Z",
+      "checksum": "13db16d5bffe8551",
+      "summary": "metadata:   schema_version: \"1.0.0\"   created_at: \"2026-10-28T15:48:35Z\"   description: \"Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)\" entity:",
+      "dependencies": [],
+      "dependents": []
+    },
+    ".aiwg/risks/risk-list.md": {
+      "path": ".aiwg/risks/risk-list.md",
+      "type": "risk",
+      "phase": "risks",
+      "title": "Risk List",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.549Z",
+      "updated": "2026-10-28T15:48:35.550Z",
+      "checksum": "9d4d7e35129f2376",
+      "summary": "| Field | Value | |---|---| | Template | `management/risk-list-template.md` | | Derived from | `AGENTS.md`, ADRs 0008, 0013, 0014, bug ledger, the dependency survey (2026-10-28) | | Source state | `184371f`, 2026-10-28 |",
+      "dependencies": [
+        "AGENTS.md",
+        "docs/agents/adr/0008-adopt-bevy-ahoy-character-controller.md",
+        "docs/agents/adr/0013-server-determinism-and-session-replay.md",
+        "docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md",
+        ".aiwg/planning/bevy-0.20-migration.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    ".aiwg/testing/defect-register.md": {
+      "path": ".aiwg/testing/defect-register.md",
+      "type": "document",
+      "phase": "testing",
+      "title": "Defect Register",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.551Z",
+      "updated": "2026-10-28T15:48:35.551Z",
+      "checksum": "e0ec265cbe7b606a",
+      "summary": "| Field | Value | |---|---| | Derived from | `docs/agents/bug_reports/README.md`, bug_0001–0011, `AGENTS.md` Known gaps | | Source state | `184371f`, 2026-10-28 | An index; the bug reports are authoritative. All eleven are fixed; most were found in agent playtests.",
+      "dependencies": [
+        "docs/agents/bug_reports/README.md",
+        "docs/agents/bug_reports/bug_0001.md",
+        "docs/agents/bug_reports/bug_0004.md",
+        "docs/agents/bug_reports/bug_0011.md",
+        "AGENTS.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    ".aiwg/testing/test-strategy.md": {
+      "path": ".aiwg/testing/test-strategy.md",
+      "type": "document",
+      "phase": "testing",
+      "title": "Test Strategy",
+      "tags": [],
+      "created": "2026-10-28T15:48:35.550Z",
+      "updated": "2026-10-28T15:48:35.551Z",
+      "checksum": "19d01ba6e51cb6e3",
+      "summary": "| Field | Value | |---|---| | Template | `test/test-strategy-template.md` (condensed) | | Derived from | `AGENTS.md` (\"Known gaps\", \"Commands\", \"Agent tool API and headless modes\"), `.github/workflows/ci.yml`, playtest index, `docs/agents/skills/playtest.md` | | Source state | `184371f`, 2026-10-28 |",
+      "dependencies": [
+        ".aiwg/planning/bevy-0.20-migration.md",
+        ".aiwg/testing/defect-register.md.",
+        ".aiwg/requirements/supplementary-spec.md",
+        "AGENTS.md",
+        "docs/agents/playtests/index.md",
+        "docs/agents/skills/playtest.md",
+        "docs/agents/skills/bugreport.md"
+      ],
+      "dependents": [
+        ".aiwg/intake/project-intake.md"
+      ]
+    },
+    "WORKSPACE.md": {
+      "path": "WORKSPACE.md",
+      "type": "document",
+      "phase": "other",
+      "title": "WORKSPACE.md",
+      "tags": [],
+      "created": "2026-10-28T15:42:08.742Z",
+      "updated": "2026-10-28T15:48:50.625Z",
+      "checksum": "54a5f1910156d4c7",
+      "summary": "<!-- aiwg-managed --> <!-- Generated structure by AIWG; operator content is protected by markers. --> <!-- AIWG:workspace-context:start --> This file is the canonical provider-neutral home for project and operator context. Provider startup files are generated adapters: they direct the harness here first,",
+      "dependencies": [
+        "AGENTS.md"
+      ],
+      "markdownLinks": [
+        "./AIWG.md",
+        ".aiwg/aiwg.config",
+        ".aiwg/quickref.json"
+      ],
+      "dependents": []
+    },
+    "AIWG.md": {
+      "path": "AIWG.md",
+      "type": "document",
+      "phase": "other",
+      "title": "AIWG.md",
+      "tags": [],
+      "created": "2026-10-28T15:42:08.747Z",
+      "updated": "2026-10-28T15:42:08.747Z",
+      "checksum": "f3c8cc1be2b51135",
+      "summary": "<!-- aiwg-managed --> <!-- CLAUDE.md companion for non-Claude providers. --> CLAUDE.md was not found at project root. AIWG.md normally mirrors that content. See [.aiwg/AIWG.md](.aiwg/AIWG.md) for the project framework context. <!-- AIWG-PARALLELISM-CAP:START -->",
+      "dependencies": [
+        "github.com"
+      ],
+      "markdownLinks": [
+        ".aiwg/AIWG.md",
+        "./.aiwg/aiwg.config"
+      ],
+      "dependents": [
+        "WORKSPACE.md"
+      ]
+    }
+  }
+}

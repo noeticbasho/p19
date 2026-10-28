@@ -34,6 +34,7 @@ Each record uses the same shape: **Context** (the problem, forces, constraints),
 | [0016](./0016-system-fonts.md) | Use the system's fonts instead of shipping font files | Accepted |
 | [0017](./0017-client-owned-absolute-look-input.md) | Look is client-owned absolute input, sent with the tick's inputs and replicated as facing | Accepted |
 | [0018](./0018-cc0-for-original-assets.md) | License the original assets CC0 1.0 | Accepted |
+| [0019](./0019-claude-code-loads-agents-md-via-aiwg.md) | Claude Code loads AGENTS.md through the AIWG-generated CLAUDE.md | Accepted |
 
 New records should be added to this index in the same PR/commit that adds the file. From 0014
 onward, records follow [`docs/agents/skills/adr.md`](../skills/adr.md) (header table, author

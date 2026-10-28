@@ -1,0 +1,17 @@
+{
+  "schema_version": "aiwg.fortemi.core-sync.v1",
+  "backend": "fortemi-core",
+  "graph": "project",
+  "generated_at": "2026-10-28T15:48:51.076Z",
+  "export_path": ".aiwg/.index/fortemi-core/project/aiwg-fortemi-index-v2.json",
+  "export_schema_version": "aiwg.fortemi.index.export.v2",
+  "export_checksum": "be81dcdcd120fe2d226b954b545fcf8cdc59a374902d4a3fee7ca485624eb48f",
+  "item_count": 29,
+  "skos_coverage": {
+    "records_with_concepts": 29,
+    "total_records": 29,
+    "ratio": 1
+  },
+  "status": "unchanged",
+  "source_index_built_at": "2026-10-28T15:48:51.073Z"
+}

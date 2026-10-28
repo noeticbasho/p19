@@ -1,0 +1,63 @@
+metadata:
+  schema_version: "1.0.0"
+  created_at: "2026-10-28T15:48:35Z"
+  description: "Derived SDLC page (memory-ingest --consumer sdlc-complete via intake-from-codebase)"
+entity:
+  id: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+  type: "document"
+  created_at: "2026-10-28T15:48:35Z"
+  checksum: "sha256:5b203d6ba264ad4539b07668370e74363fa638d5be064a88eac87e658869c873"
+  size_bytes: 1729
+activity:
+  id: "urn:aiwg:activity:derivation:solution-profile:1"
+  type: "derivation"
+  started_at: "2026-10-28T15:48:35Z"
+  ended_at: "2026-10-28T15:48:35Z"
+  description: "Derived from the repository records cited in the page"
+agent:
+  id: "urn:aiwg:agent:claude-opus-5-5"
+  type: "ai_assistant"
+  name: "Claude Code"
+  tool: "claude-opus-5-5"
+relationships:
+  wasGeneratedBy:
+    entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+    activity: "urn:aiwg:activity:derivation:solution-profile:1"
+    time: "2026-10-28T15:48:35Z"
+  used:
+    - activity: "urn:aiwg:activity:derivation:solution-profile:1"
+      entity: "urn:aiwg:artifact:AGENTS.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:solution-profile:1"
+      entity: "urn:aiwg:artifact:docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:solution-profile:1"
+      entity: "urn:aiwg:artifact:docs/agents/bug_reports/README.md"
+      role: "source_record"
+    - activity: "urn:aiwg:activity:derivation:solution-profile:1"
+      entity: "urn:aiwg:artifact:docs/agents/playtests/index.md"
+      role: "source_record"
+  wasDerivedFrom:
+    - entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+      source: "urn:aiwg:artifact:AGENTS.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:solution-profile:1"
+    - entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+      source: "urn:aiwg:artifact:docs/agents/adr/0014-multiplayer-hardening-netcode-tokens-and-portable-builds.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:solution-profile:1"
+    - entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+      source: "urn:aiwg:artifact:docs/agents/bug_reports/README.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:solution-profile:1"
+    - entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+      source: "urn:aiwg:artifact:docs/agents/playtests/index.md"
+      derivation_type: "derives_from"
+      activity: "urn:aiwg:activity:derivation:solution-profile:1"
+  wasAssociatedWith:
+    activity: "urn:aiwg:activity:derivation:solution-profile:1"
+    agent: "urn:aiwg:agent:claude-opus-5-5"
+    role: "primary_author"
+  wasAttributedTo:
+    entity: "urn:aiwg:artifact:.aiwg/intake/solution-profile.md"
+    agent: "urn:aiwg:agent:claude-opus-5-5"

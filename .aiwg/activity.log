@@ -1,0 +1,4 @@
+## [2026-10-28 15:42] deploy | aiwg use all --provider claude
+## [2026-10-28 15:48] update | aiwg index build
+## [2026-10-28 15:48] update | aiwg index sync
+## [2026-10-28 15:48] ingest | intake-from-codebase + memory-ingest (sdlc-complete): 10 SDLC pages incl. Bevy 0.20 migration plan + provenance; ADR 0019 (CLAUDE.md via AIWG)

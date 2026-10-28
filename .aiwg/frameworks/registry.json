@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "created": "2026-10-28T15:42:05.592Z",
+  "frameworks": [
+    {
+      "id": "forensics-complete",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "knowledge-base",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "media-curator",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "media-marketing-kit",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ops-complete",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "research-complete",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "sdlc-complete",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "security-engineering",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "validation-complete",
+      "installed": "2026-10-28T15:42:05.593Z",
+      "version": "1.0.0"
+    }
+  ]
+}

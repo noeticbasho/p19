@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "extractorVersion": "2026.08.24.1",
+  "builtAt": "2026-10-28T15:48:51.074Z",
+  "buildTimeMs": 27,
+  "totalArtifacts": 29,
+  "byPhase": {
+    "other": 19,
+    "architecture": 1,
+    "intake": 3,
+    "planning": 1,
+    "requirements": 2,
+    "risks": 1,
+    "testing": 2
+  },
+  "byType": {
+    "document": 25,
+    "use-case": 2,
+    "risk": 2
+  },
+  "tagDistribution": {},
+  "graphMetrics": {
+    "backend": "json",
+    "totalEdges": 14,
+    "markdownLinkEdges": 2,
+    "orphanedArtifacts": 17,
+    "mostReferenced": {
+      "path": ".aiwg/planning/bevy-0.20-migration.md",
+      "count": 4
+    }
+  }
+}
